@@ -1,0 +1,20 @@
+[user]
+	name = Robiul Robi
+	email = robi@linux.com
+[core]
+    longpaths = true
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+    trustExitCode = false
+[diff]
+    guitool = kdiff3
+[difftool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+    trustExitCode = false
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout	
